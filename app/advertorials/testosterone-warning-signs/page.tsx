@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 // UTM TRACKING
 // ============================================
 const UTM_PARAMS = '?utm_source=advertorial&utm_medium=testosterone-warning-signs-topn&utm_campaign=cold-traffic-2025';
-const PRODUCT_LINK = `https://testograph.com/shop/testosterone-optimizer${UTM_PARAMS}`;
+const PRODUCT_LINK = `https://shop.testograph.eu/products/testoup${UTM_PARAMS}`;
 
 // ============================================
 // PAGE COMPONENT
@@ -53,7 +53,7 @@ export default function TestosteroneWarningSigns() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/funnel/testosterone-hero-dark.jpg')",
+            backgroundImage: "url('/funnel/testosterone-hero-dark.webp')",
           }}
         >
           {/* Dark Overlay */}
@@ -169,9 +169,9 @@ export default function TestosteroneWarningSigns() {
                 {/* Image - RIGHT */}
                 <div>
                   <img
-                    src="/funnel/tired-man.jpg"
+                    src="/funnel/tired-man.webp"
                     alt="Изтощен мъж"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -184,9 +184,9 @@ export default function TestosteroneWarningSigns() {
                 {/* Image - LEFT */}
                 <div className="md:order-1">
                   <img
-                    src="/funnel/belly-fat.jpg"
+                    src="/funnel/belly-fat.webp"
                     alt="Коремна мазнина"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -260,9 +260,9 @@ export default function TestosteroneWarningSigns() {
 
                 <div>
                   <img
-                    src="/funnel/couple-distant.jpg"
+                    src="/funnel/couple-distant.webp"
                     alt="Интимни проблеми"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -274,9 +274,9 @@ export default function TestosteroneWarningSigns() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div className="md:order-1">
                   <img
-                    src="/funnel/muscle-loss.jpg"
+                    src="/funnel/muscle-loss.webp"
                     alt="Загуба на мускули"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -354,9 +354,9 @@ export default function TestosteroneWarningSigns() {
 
                 <div>
                   <img
-                    src="/funnel/depression-man.jpg"
+                    src="/funnel/depression-man.webp"
                     alt="Депресия"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -368,9 +368,9 @@ export default function TestosteroneWarningSigns() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div className="md:order-1">
                   <img
-                    src="/funnel/gynecomastia.jpg"
+                    src="/funnel/gynecomastia.webp"
                     alt="Гинекомастия"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -448,9 +448,9 @@ export default function TestosteroneWarningSigns() {
 
                 <div>
                   <img
-                    src="/funnel/bone-health.jpg"
+                    src="/funnel/bone-health.webp"
                     alt="Здраве на костите"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -462,9 +462,9 @@ export default function TestosteroneWarningSigns() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div className="md:order-1">
                   <img
-                    src="/funnel/sleep-problems.jpg"
+                    src="/funnel/sleep-problems.webp"
                     alt="Проблеми със съня"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -544,9 +544,9 @@ export default function TestosteroneWarningSigns() {
 
                 <div>
                   <img
-                    src="/funnel/angry-man.jpg"
+                    src="/funnel/angry-man.webp"
                     alt="Раздразнителност"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -558,9 +558,9 @@ export default function TestosteroneWarningSigns() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
                 <div className="md:order-1">
                   <img
-                    src="/funnel/heart-risk.jpg"
+                    src="/funnel/heart-risk.webp"
                     alt="Сърдечен риск"
-                    className="w-full h-auto rounded-lg shadow-md object-cover aspect-[432/280]"
+                    className="w-full h-auto rounded-lg shadow-md object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -750,7 +750,7 @@ export default function TestosteroneWarningSigns() {
                 {/* Product Image */}
                 <div className="bg-gradient-to-br from-neutral-100 to-neutral-50 p-6">
                   <img
-                    src="/funnel/product-image.png"
+                    src="/funnel/testoup-bottle.png"
                     alt="TestoOptimal Natural Booster"
                     className="w-full h-auto mx-auto"
                   />
@@ -759,13 +759,13 @@ export default function TestosteroneWarningSigns() {
                 {/* Product Info */}
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-neutral-900 mb-3">
-                    TestoOptimal™ Natural Booster
+                    ТеstoUP
                   </h3>
 
                   {/* Price */}
                   <div className="mb-4">
                     <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold text-red-600">89.00 лв</span>
+                      <span className="text-3xl font-bold text-red-600">67.00 лв</span>
                       <span className="text-lg text-neutral-500 line-through">139.00 лв</span>
                     </div>
                     <p className="text-sm text-green-600 font-semibold mt-1">
@@ -800,7 +800,7 @@ export default function TestosteroneWarningSigns() {
                   {/* CTA Button */}
                   <SoftCTA
                     link={PRODUCT_LINK}
-                    ctaText="Поръчай Сега →"
+                    ctaText="Поръчай Сега"
                     variant="boxed"
                     className="w-full"
                   />
@@ -880,7 +880,7 @@ export default function TestosteroneWarningSigns() {
           </div>
           <div className="p-6">
             <h3 className="text-xl font-bold text-neutral-900 mb-3">
-              TestoOptimal™ Natural Booster
+              TestoUp
             </h3>
             <div className="mb-4">
               <div className="flex items-baseline gap-2">
