@@ -631,9 +631,9 @@ export default function HerbsMineralsTestosteronePage() {
 
                 {/* Order Button */}
                 <SoftCTA
-                  href={PRODUCT_LINK}
-                  text="Поръчай Сега →"
-                  variant="primary"
+                  link={PRODUCT_LINK}
+                  ctaText="Поръчай Сега →"
+                  variant="boxed"
                   className="w-full text-center text-xl py-4 mb-6"
                 />
 

@@ -703,9 +703,9 @@ export default function TestosteroneWarningSigns() {
 
                     {/* CTA */}
                     <SoftCTA
-                      href={PRODUCT_LINK}
-                      text="Виж Пълния Протокол →"
-                      variant="primary"
+                      link={PRODUCT_LINK}
+                      ctaText="Виж Пълния Протокол →"
+                      variant="boxed"
                     />
 
                     <p className="text-sm text-neutral-600 mt-4 text-center">
@@ -799,9 +799,9 @@ export default function TestosteroneWarningSigns() {
 
                   {/* CTA Button */}
                   <SoftCTA
-                    href={PRODUCT_LINK}
-                    text="Поръчай Сега →"
-                    variant="primary"
+                    link={PRODUCT_LINK}
+                    ctaText="Поръчай Сега →"
+                    variant="boxed"
                     className="w-full"
                   />
 
@@ -892,9 +892,9 @@ export default function TestosteroneWarningSigns() {
               </p>
             </div>
             <SoftCTA
-              href={PRODUCT_LINK}
-              text="Поръчай Сега →"
-              variant="primary"
+              link={PRODUCT_LINK}
+              ctaText="Поръчай Сега →"
+              variant="boxed"
               className="w-full"
             />
           </div>

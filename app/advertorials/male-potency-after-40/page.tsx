@@ -243,9 +243,9 @@ export default function MalePotencyAfter40Page() {
                     Научно формулиран комплекс от билки и минерали за здрав тестостерон и либидо
                   </p>
                   <SoftCTA
-                    href={PRODUCT_LINK}
-                    text="Научете повече →"
-                    variant="secondary"
+                    link={PRODUCT_LINK}
+                    ctaText="Научете повече →"
+                    variant="minimal"
                     className="w-full text-center"
                   />
                 </div>
@@ -472,9 +472,9 @@ export default function MalePotencyAfter40Page() {
 
           <div className="flex justify-center">
             <SoftCTA
-              href={PRODUCT_LINK}
-              text="Открийте Естественото Решение →"
-              variant="primary"
+              link={PRODUCT_LINK}
+              ctaText="Открийте Естественото Решение →"
+              variant="boxed"
               className="text-lg px-8 py-4"
             />
           </div>
